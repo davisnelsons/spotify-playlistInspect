@@ -1,0 +1,9 @@
+extends layout 
+
+block content
+    h1 Hi, #{users_name}
+    h3 Choose which playlist you want to analyze 
+    each playlist in playlists
+        form(action="http://localhost:3000/analyze/#{playlist.id}")
+            button #{playlist.name}
+        
