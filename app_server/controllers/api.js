@@ -1,5 +1,5 @@
-const client_id = 'b283c50de4d142e2b3163ca0d67de760'; // Your client id
-const client_secret = 'f69729701dd4454d886aa8e15af7e8a2'; // Your secret
+const client_id = '--'; // Your client id
+const client_secret = '--'; // Your secret
 const redirect_uri = 'http://localhost:3000/authcallback';
 const request = require("request");
 const axios = require("axios");
